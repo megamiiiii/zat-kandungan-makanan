@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deteksi Zat Berbahaya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pilih Gejala yang Terlihat</h1>
+        <form id="diagnosaForm">
+            <div class="gejala-container">
+                <label><input type="checkbox" value="C1"> Bertekstur Kenyal</label>
+                <label><input type="checkbox" value="C2"> Tidak Mudah Lengket</label>
+                <label><input type="checkbox" value="C3"> Berwarna Mencolok</label>
+                <label><input type="checkbox" value="C4"> Beraroma Mencurigakan</label>
+                <label><input type="checkbox" value="C5"> Tidak Rusak dalam 3 Hari</label>
+                <label><input type="checkbox" value="C6"> Tidak Rusak dalam 15 Hari</label>
+                <label><input type="checkbox" value="C7"> Bau Menyengat</label>
+                <label><input type="checkbox" value="C8"> Mi Berwarna Mengkilap</label>
+                <label><input type="checkbox" value="C13"> Makanan Berwarna Merah Cerah</label>
+                <label><input type="checkbox" value="C14"> Warna Tidak Merata</label>
+                <label><input type="checkbox" value="C17"> Warna Kuning Mencolok</label>
+            </div>
+            <button type="button" onclick="diagnosa()">Cek Hasil</button>
+        </form>
+        <a href="index.html" class="button back">Kembali</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
