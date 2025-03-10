@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Deteksi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hasil Diagnosa</h1>
+        <div id="hasil-container">
+            <p id="hasil"></p>
+        </div>
+        <a href="deteksi.html" class="button">Coba Lagi</a>
+    </div>
+    <script>
+        document.getElementById("hasil").innerText = localStorage.getItem("hasilDiagnosa");
+    </script>
+</body>
+</html>
