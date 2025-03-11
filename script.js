@@ -6,7 +6,7 @@ function diagnosa() {
 
     let hasilDiagnosa = backwardChaining(gejalaTerpilih);
     localStorage.setItem("hasilDiagnosa", hasilDiagnosa);
-    window.location.href = "jhasil.html";
+    window.location.href = "hasil.html";
 }
 
 function backwardChaining(gejala) {
@@ -23,5 +23,9 @@ function backwardChaining(gejala) {
         }
     }
     
-    return "✅ Tidak ditemukan indikasi zat berbahaya berdasarkan gejala yang dipilih.";
+    return "✅ Tidak ditemukan indikasi zat berbahaya.";
+}
+
+function toggleMode() {
+    document.body.classList.toggle("dark-mode");
 }
