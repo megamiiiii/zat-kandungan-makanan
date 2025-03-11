@@ -6,7 +6,7 @@ function diagnosa() {
 
     let hasilDiagnosa = backwardChaining(gejalaTerpilih);
     localStorage.setItem("hasilDiagnosa", hasilDiagnosa);
-    window.location.href = "hasil.html";
+    window.location.href = "jhasil.html";
 }
 
 function backwardChaining(gejala) {
